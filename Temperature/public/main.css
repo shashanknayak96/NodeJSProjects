@@ -1,0 +1,16 @@
+html{
+    display: block;
+    margin: auto;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+
+body{
+    vertical-align: middle;
+    text-align: center;
+}
+
+h3, h4{
+    font-weight: 10;
+}   
