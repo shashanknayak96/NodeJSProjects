@@ -22,7 +22,7 @@ app.get("/", function (req, res) {
 app.get("/:state", function (req, res) {
 
     Weather.setLang('en');
-    Weather.setAPPID('7caf376b2f1aa72a70d196e055e13c9e');
+    Weather.setAPPID(<APPID HERE>);
     Weather.setCity(req.params.state);
     // Weather.setZipCode(req.params.state);
     Weather.getAllWeather(function(err, info){
